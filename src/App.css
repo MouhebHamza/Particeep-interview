@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover {
+    transform: scale(1.05);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.select-container {
+    margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.select-dropdown {
+    width: 50px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: aqua;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    appearance: none;
+}
+.select-dropdown:hover {
+    background-color: rgb(5, 238, 238);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.prev-button {
+    margin-right: 20px;
+    background-color: aqua;
+    color: white;
+}
+.next-button {
+    background-color: aqua;
+    color: white;
+}
+.filters-button {
+    margin-left: 20px;
+    background-color: aqua;
+    color: white;
 }

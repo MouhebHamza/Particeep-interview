@@ -1,0 +1,76 @@
+.movie-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 300px; 
+  display: inline-block;
+  vertical-align: top;
+}
+
+.movie-card h2 {
+  font-weight: bold;
+}
+
+.movie-card p {
+  margin: 5px 0;
+}
+
+.like-dislike-bar {
+  height: 10px;
+  background-color: #f2f2f2;
+  margin-top: 10px;
+}
+
+.like-bar,
+.dislike-bar {
+  height: 100%;
+}
+
+.like-bar {
+  background-color: green; 
+}
+
+.dislike-bar {
+  background-color: red; 
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+.button-container button {
+  margin-right: 5px;
+}
+
+.icon-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 10px;
+  color: #777; 
+  transition: color 0.3s ease;
+
+ 
+}
+
+.delete-button:hover {
+  color: red; 
+      transform: scale(1.5); 
+
+}
+
+.like-button:hover {
+  color: green; 
+      transform: scale(2.05); 
+
+}
+
+.dislike-button:hover {
+  color: red; 
+    transform: scale(2.05); 
+
+}
+.button-container{
+    margin-top: 10px;
+}
